@@ -1,2 +1,0 @@
-# vinylRecord
-VinylRecord brand website.
