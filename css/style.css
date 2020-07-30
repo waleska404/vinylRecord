@@ -1,40 +1,77 @@
 
+html{
+    font-size: 62.5%; /**Reset para REMS - 62.5% = 10px de 16px **/
+
+}
+
+
+
 body{
     font-family: 'Lato', sans-serif;
-
+    font-size: 1.6rem;
 }
 
 
 
 /** Globales **/
 .contenedor{
-    max-width: 1400px;
-    margin-left: 0 auto 0 auto;
+    max-width: 140rem;
+    margin-left: auto;
 }
+
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 3.4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+    font-size: 2.6rem;
+}
+
+/**Utilidades**/
+
+
 /*Header*/
 .site-header{
     background: red;
     background-image: url(../img/fondo-header.jpg);
     background-position: center center;
     height: 100vh;
-    min-height: 600px;
-    /*min-height:60rem;*/
+    min-height: 60rem;
     background-size:cover;
-    /*width: 300px;*/
+
 }
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contenido-header h1 {
+    padding-left: 21rem;
+    padding-bottom: 2rem;
+    font-size: 5rem;
+    line-height: 1.5;
+
+}
+
 .barra{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 30px;
-    padding-left: 185px;
+    padding-top: 3rem;
+    padding-left: 18.5rem;
 }
 /*Nagevacion*/
 .navegacion a{
     color: rgba(0,0,0,1);
-    margin-right: 20px;
+    margin-right: 2rem;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 2rem;
 }
 .navegacion a:hover{
    color: #d60073;
@@ -44,5 +81,5 @@ body{
 }
 
 .icon{
-    height: 50px;
+    height: 5rem;
 }
