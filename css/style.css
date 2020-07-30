@@ -1,0 +1,10 @@
+
+
+/*Header*/
+
+.site-header.init{
+    background: url(../img/fondo-header.jpg)
+    height: 400px;
+    width: 300px;
+    /*min-height: 200px;*/
+}
