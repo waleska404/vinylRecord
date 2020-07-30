@@ -2,9 +2,18 @@
 
 /*Header*/
 
-.site-header.init{
-    background: url(../img/fondo-header.jpg)
-    height: 400px;
-    width: 300px;
+.site-header{
+
+    background-image: url(../img/fondo-header.jpg)
+    /*background-position: center center;*/
+    height: 100vh;
+    /*min-height:60rem;*/
+    /*background-size:cover;*/
+    /*width: 300px;*/
     /*min-height: 200px;*/
+}
+
+.icon{
+    height: 50px
+
 }
