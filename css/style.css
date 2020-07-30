@@ -1,19 +1,48 @@
 
+body{
+    font-family: 'Lato', sans-serif;
 
+}
+
+
+
+/** Globales **/
+.contenedor{
+    max-width: 1400px;
+    margin-left: 0 auto 0 auto;
+}
 /*Header*/
-
 .site-header{
-
-    background-image: url(../img/fondo-header.jpg)
-    /*background-position: center center;*/
+    background: red;
+    background-image: url(../img/fondo-header.jpg);
+    background-position: center center;
     height: 100vh;
+    min-height: 600px;
     /*min-height:60rem;*/
-    /*background-size:cover;*/
+    background-size:cover;
     /*width: 300px;*/
-    /*min-height: 200px;*/
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 185px;
+}
+/*Nagevacion*/
+.navegacion a{
+    color: rgba(0,0,0,1);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 22px;
+}
+.navegacion a:hover{
+   color: #d60073;
+}
+.navegacion a:last-of-type{
+    margin: 0;
 }
 
 .icon{
-    height: 50px
-
+    height: 50px;
 }
