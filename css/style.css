@@ -3,20 +3,16 @@ html{
     font-size: 62.5%; /**Reset para REMS - 62.5% = 10px de 16px **/
 
 }
-
-
-
 body{
     font-family: 'Lato', sans-serif;
     font-size: 1.6rem;
+    line-height: 2;
 }
-
-
 
 /** Globales **/
 .contenedor{
     max-width: 140rem;
-    margin-left: auto;
+    margin-left: 20rem;
 }
 
 h1{
@@ -33,7 +29,18 @@ h4{
 }
 
 /**Utilidades**/
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.fw-300 {
+    font-weight: 300;
+}
+
+.centrar-texto {
+    text-align: center;
+}
 
 /*Header*/
 .site-header{
@@ -52,7 +59,6 @@ h4{
     justify-content: space-between;
 }
 .contenido-header h1 {
-    padding-left: 21rem;
     padding-bottom: 2rem;
     font-size: 5rem;
     line-height: 1.5;
@@ -64,7 +70,7 @@ h4{
     justify-content: space-between;
     align-items: center;
     padding-top: 3rem;
-    padding-left: 18.5rem;
+    padding-right: 3rem;
 }
 /*Nagevacion*/
 .navegacion a{
@@ -80,6 +86,22 @@ h4{
     margin: 0;
 }
 
-.icon{
-    height: 5rem;
+/**Iconos nosotros**/
+
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+
+.icono img{
+    height: 7rem;
 }
