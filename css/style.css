@@ -177,6 +177,20 @@ h4 {
     font-weight: 700;
 }
 
+.iconos-caracteristicas {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconos-caracteristicas li img {
+    flex: 1;
+    height: 6rem;
+    display: flex;
+    margin-right: 2rem;
+}
+
 .see-all-products {
     display: flex;
     justify-content: flex-end;
