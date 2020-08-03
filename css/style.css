@@ -74,7 +74,7 @@ h4 {
 }
 
 .boton-rosa1 {
-    background-color: lightseagreen;
+    background-color: goldenrod;
 }
 
 .boton-rosa2 {
@@ -181,3 +181,42 @@ h4 {
     display: flex;
     justify-content: flex-end;
 }
+
+/** Contacto Home **/
+
+.imagen-contacto {
+    background-image: url("../img/contact.jpg");
+    background-position: center center;
+    height: 40rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.contenido-contacto {
+    flex: 1;
+    color: white;
+}
+
+.contenido-contacto p {
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
