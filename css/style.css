@@ -253,8 +253,9 @@ h4 {
 }
 
 .imagen-blog-inside {
-    height: 40rem;
-    width: 40rem;
+    height: 30rem;
+    width: 30rem;
+    display: block;
 }
 
 .entrada-blog .texto-entrada {
@@ -284,9 +285,31 @@ h4 {
     color: #d60073;
 }
 
+/** Testimoniales **/
 
+.testimonial {
+    background-color: #d60073;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: antiquewhite;
+    border-radius: 2rem;
+}
 
+.testimonial p {
+    text-align: right;
+}
 
+.testimonial blockquote::before {
+    content: '"';
+    /*background-image: url("");*/
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+}
+
+.testimonial blockquote {
+    position: relative;
+}
 
 
 
